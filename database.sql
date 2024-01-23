@@ -20,7 +20,7 @@ CREATE TABLE characters (
 
 INSERT INTO characters (name, type1, type2, total, hp, attack, defense, sp_atk, sp_def, speed, sprite) VALUES
 
-('Bulbasaur', 'Grass', 'Poison', 318, 45, 49, 49, 65, 65, 45, 'path/to/sprite'),
+('Bulbasaur', 'Grass', 'Poison', 318, 45, 49, 49, 65, 65, 45, './public/sprites/Spr_1g_001.png'),
 ('Ivysaur', 'Grass', 'Poison', 405, 60, 62, 63, 80, 80, 60,'path/to/sprite'),
 ('Venusaur', 'Grass', 'Poison', 525, 80, 82, 83, 100, 100, 80,'path/to/sprite'),
 ('Charmander', 'Fire', NULL, 309, 39, 52, 43, 60, 50, 65,'path/to/sprite'),
